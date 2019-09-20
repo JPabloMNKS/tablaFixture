@@ -130,7 +130,91 @@ namespace Versus
         private void BtnVS1_Click(object sender, EventArgs e)
         {
             Prueba grupo1 = new Prueba(rutaArchivos[aleatorio[0]], rutaArchivos[aleatorio[1]],
-                                        txtTeam1.Text,txtTeam2.Text);
+                                        txtTeam1.Text,txtTeam2.Text, 1);
+            grupo1.Show();
+        }
+        private void BtnVS2_Click(object sender, EventArgs e)
+        {
+            Prueba grupo1 = new Prueba(rutaArchivos[aleatorio[2]], rutaArchivos[aleatorio[3]],
+                                        txtTeam3.Text, txtTeam4.Text, 2);
+            grupo1.Show();
+        }
+        private void BtnVS3_Click(object sender, EventArgs e)
+        {
+            Prueba grupo1 = new Prueba(rutaArchivos[aleatorio[4]], rutaArchivos[aleatorio[5]],
+                                        txtTeam5.Text, txtTeam6.Text, 3);
+            grupo1.Show();
+        }
+        private void BtnVS4_Click(object sender, EventArgs e)
+        {
+            Prueba grupo1 = new Prueba(rutaArchivos[aleatorio[6]], rutaArchivos[aleatorio[7]],
+                                        txtTeam7.Text, txtTeam8.Text, 4);
+            grupo1.Show();
+        }
+
+        private void Team1_Click(object sender, EventArgs e)
+        {
+            team21.Load(rutaArchivos[aleatorio[0]]);
+            txtTeam21.Text = txtTeam1.Text;
+        }
+
+        private void Team2_Click(object sender, EventArgs e)
+        {
+            team21.Load(rutaArchivos[aleatorio[1]]);
+            txtTeam21.Text = txtTeam2.Text;
+        }
+
+        private void Team3_Click(object sender, EventArgs e)
+        {
+            team22.Load(rutaArchivos[aleatorio[2]]);
+            txtTeam22.Text = txtTeam3.Text;
+        }
+
+        private void Team4_Click(object sender, EventArgs e)
+        {
+            team22.Load(rutaArchivos[aleatorio[3]]);
+            txtTeam22.Text = txtTeam4.Text;
+        }
+
+        private void Team5_Click(object sender, EventArgs e)
+        {
+            team23.Load(rutaArchivos[aleatorio[4]]);
+            txtTeam23.Text = txtTeam5.Text;
+
+        }
+
+        private void Team6_Click(object sender, EventArgs e)
+        {
+            team23.Load(rutaArchivos[aleatorio[5]]);
+            txtTeam23.Text = txtTeam6.Text;
+
+        }
+
+        private void Team7_Click(object sender, EventArgs e)
+        {
+            team24.Load(rutaArchivos[aleatorio[6]]);
+            txtTeam24.Text = txtTeam7.Text;
+
+        }
+
+        private void Team8_Click(object sender, EventArgs e)
+        {
+            team24.Load(rutaArchivos[aleatorio[7]]);
+            txtTeam24.Text = txtTeam8.Text;
+
+        }
+
+        private void BtnVS5_Click(object sender, EventArgs e)
+        {
+            Prueba grupo1 = new Prueba(team21.ImageLocation, team22.ImageLocation,
+                            txtTeam21.Text, txtTeam22.Text, 5);
+            grupo1.Show();
+        }
+
+        private void BtnVS6_Click(object sender, EventArgs e)
+        {
+            Prueba grupo1 = new Prueba(team23.ImageLocation, team24.ImageLocation,
+                            txtTeam23.Text, txtTeam24.Text, 6);
             grupo1.Show();
         }
     }

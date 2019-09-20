@@ -13,6 +13,7 @@ namespace Versus
     public partial class Prueba : Form
     {
         string img1="", img2="", txt1="", txt2="";
+        int id = 0;
 
 
         public Prueba()
@@ -20,7 +21,7 @@ namespace Versus
             InitializeComponent();
         }
 
-        public Prueba(string img1, string img2, string txt1, string txt2)
+        public Prueba(string img1, string img2, string txt1, string txt2,int identificador)
         {
             InitializeComponent();
             this.img1 = img1;
@@ -31,7 +32,7 @@ namespace Versus
             teamPrueba2.Load(img2);
             txtTeamPrueba1.Text = txt1;
             txtTeamPrueba2.Text = txt2;
-
+            id = identificador;
         }
 
         private void BtnClose_Click(object sender, EventArgs e)
