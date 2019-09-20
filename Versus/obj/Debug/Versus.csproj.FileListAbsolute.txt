@@ -1,0 +1,11 @@
+E:\Codigos\C#\Forms\Versus\Versus\bin\Debug\Versus.exe.config
+E:\Codigos\C#\Forms\Versus\Versus\bin\Debug\Versus.exe
+E:\Codigos\C#\Forms\Versus\Versus\bin\Debug\Versus.pdb
+E:\Codigos\C#\Forms\Versus\Versus\obj\Debug\Versus.csprojAssemblyReference.cache
+E:\Codigos\C#\Forms\Versus\Versus\obj\Debug\Versus.Form1.resources
+E:\Codigos\C#\Forms\Versus\Versus\obj\Debug\Versus.Properties.Resources.resources
+E:\Codigos\C#\Forms\Versus\Versus\obj\Debug\Versus.csproj.GenerateResource.cache
+E:\Codigos\C#\Forms\Versus\Versus\obj\Debug\Versus.csproj.CoreCompileInputs.cache
+E:\Codigos\C#\Forms\Versus\Versus\obj\Debug\Versus.exe
+E:\Codigos\C#\Forms\Versus\Versus\obj\Debug\Versus.pdb
+E:\Codigos\C#\Forms\Versus\Versus\obj\Debug\Versus.Prueba.resources
