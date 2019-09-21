@@ -64,6 +64,12 @@
             this.team7 = new System.Windows.Forms.PictureBox();
             this.team8 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.BtnVS6 = new System.Windows.Forms.Button();
+            this.txtTeam24 = new System.Windows.Forms.Label();
+            this.txtTeam23 = new System.Windows.Forms.Label();
+            this.team24 = new System.Windows.Forms.PictureBox();
+            this.team23 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.BtnVS5 = new System.Windows.Forms.Button();
@@ -73,17 +79,11 @@
             this.team21 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.BtnVS6 = new System.Windows.Forms.Button();
-            this.txtTeam24 = new System.Windows.Forms.Label();
-            this.txtTeam23 = new System.Windows.Forms.Label();
-            this.team24 = new System.Windows.Forms.PictureBox();
-            this.team23 = new System.Windows.Forms.PictureBox();
+            this.BtnVS7 = new System.Windows.Forms.Button();
+            this.txtTeam32 = new System.Windows.Forms.Label();
+            this.txtTeam31 = new System.Windows.Forms.Label();
+            this.team32 = new System.Windows.Forms.PictureBox();
+            this.team31 = new System.Windows.Forms.PictureBox();
             this.panelTop.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -101,17 +101,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.team7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.team8)).BeginInit();
             this.panel4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.team24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.team23)).BeginInit();
             this.panel5.SuspendLayout();
             this.groupBox7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.team22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.team21)).BeginInit();
             this.panel6.SuspendLayout();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.groupBox5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.team24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.team23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.team32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.team31)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTop
@@ -574,6 +574,80 @@
             this.panel4.Size = new System.Drawing.Size(273, 667);
             this.panel4.TabIndex = 5;
             // 
+            // groupBox5
+            // 
+            this.groupBox5.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.groupBox5.Controls.Add(this.BtnVS6);
+            this.groupBox5.Controls.Add(this.txtTeam24);
+            this.groupBox5.Controls.Add(this.txtTeam23);
+            this.groupBox5.Controls.Add(this.team24);
+            this.groupBox5.Controls.Add(this.team23);
+            this.groupBox5.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.groupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.groupBox5.Location = new System.Drawing.Point(9, 66);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(264, 536);
+            this.groupBox5.TabIndex = 11;
+            this.groupBox5.TabStop = false;
+            // 
+            // BtnVS6
+            // 
+            this.BtnVS6.FlatAppearance.BorderSize = 0;
+            this.BtnVS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnVS6.Font = new System.Drawing.Font("MS UI Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVS6.ForeColor = System.Drawing.Color.White;
+            this.BtnVS6.Location = new System.Drawing.Point(90, 257);
+            this.BtnVS6.Name = "BtnVS6";
+            this.BtnVS6.Size = new System.Drawing.Size(78, 39);
+            this.BtnVS6.TabIndex = 10;
+            this.BtnVS6.Text = "VS";
+            this.BtnVS6.UseVisualStyleBackColor = true;
+            this.BtnVS6.Click += new System.EventHandler(this.BtnVS6_Click);
+            // 
+            // txtTeam24
+            // 
+            this.txtTeam24.AutoSize = true;
+            this.txtTeam24.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTeam24.ForeColor = System.Drawing.Color.White;
+            this.txtTeam24.Location = new System.Drawing.Point(20, 496);
+            this.txtTeam24.Name = "txtTeam24";
+            this.txtTeam24.Size = new System.Drawing.Size(96, 21);
+            this.txtTeam24.TabIndex = 9;
+            this.txtTeam24.Text = "Equipo #1";
+            this.txtTeam24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtTeam23
+            // 
+            this.txtTeam23.AutoSize = true;
+            this.txtTeam23.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTeam23.ForeColor = System.Drawing.Color.White;
+            this.txtTeam23.Location = new System.Drawing.Point(6, 16);
+            this.txtTeam23.Name = "txtTeam23";
+            this.txtTeam23.Size = new System.Drawing.Size(96, 21);
+            this.txtTeam23.TabIndex = 8;
+            this.txtTeam23.Text = "Equipo #1";
+            this.txtTeam23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // team24
+            // 
+            this.team24.Location = new System.Drawing.Point(6, 348);
+            this.team24.Name = "team24";
+            this.team24.Size = new System.Drawing.Size(252, 135);
+            this.team24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.team24.TabIndex = 6;
+            this.team24.TabStop = false;
+            this.team24.Click += new System.EventHandler(this.Team24_Click);
+            // 
+            // team23
+            // 
+            this.team23.Location = new System.Drawing.Point(6, 56);
+            this.team23.Name = "team23";
+            this.team23.Size = new System.Drawing.Size(252, 135);
+            this.team23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.team23.TabIndex = 2;
+            this.team23.TabStop = false;
+            this.team23.Click += new System.EventHandler(this.Team23_Click);
+            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -646,6 +720,7 @@
             this.team22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.team22.TabIndex = 6;
             this.team22.TabStop = false;
+            this.team22.Click += new System.EventHandler(this.Team22_Click);
             // 
             // team21
             // 
@@ -655,6 +730,7 @@
             this.team21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.team21.TabIndex = 2;
             this.team21.TabStop = false;
+            this.team21.Click += new System.EventHandler(this.Team21_Click);
             // 
             // panel6
             // 
@@ -669,11 +745,11 @@
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.groupBox6.Controls.Add(this.button1);
-            this.groupBox6.Controls.Add(this.label1);
-            this.groupBox6.Controls.Add(this.label2);
-            this.groupBox6.Controls.Add(this.pictureBox1);
-            this.groupBox6.Controls.Add(this.pictureBox2);
+            this.groupBox6.Controls.Add(this.BtnVS7);
+            this.groupBox6.Controls.Add(this.txtTeam32);
+            this.groupBox6.Controls.Add(this.txtTeam31);
+            this.groupBox6.Controls.Add(this.team32);
+            this.groupBox6.Controls.Add(this.team31);
             this.groupBox6.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.groupBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox6.Location = new System.Drawing.Point(6, 149);
@@ -682,132 +758,61 @@
             this.groupBox6.TabIndex = 11;
             this.groupBox6.TabStop = false;
             // 
-            // button1
+            // BtnVS7
             // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(97, 181);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(66, 32);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "VS";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnVS7.FlatAppearance.BorderSize = 0;
+            this.BtnVS7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnVS7.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVS7.ForeColor = System.Drawing.Color.White;
+            this.BtnVS7.Location = new System.Drawing.Point(97, 181);
+            this.BtnVS7.Name = "BtnVS7";
+            this.BtnVS7.Size = new System.Drawing.Size(66, 32);
+            this.BtnVS7.TabIndex = 10;
+            this.BtnVS7.Text = "VS";
+            this.BtnVS7.UseVisualStyleBackColor = true;
+            this.BtnVS7.Click += new System.EventHandler(this.BtnVS7_Click);
             // 
-            // label1
+            // txtTeam32
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(20, 356);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 21);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Equipo #1";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtTeam32.AutoSize = true;
+            this.txtTeam32.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTeam32.ForeColor = System.Drawing.Color.White;
+            this.txtTeam32.Location = new System.Drawing.Point(20, 356);
+            this.txtTeam32.Name = "txtTeam32";
+            this.txtTeam32.Size = new System.Drawing.Size(96, 21);
+            this.txtTeam32.TabIndex = 9;
+            this.txtTeam32.Text = "Equipo #1";
+            this.txtTeam32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // txtTeam31
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(20, 150);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 21);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Equipo #1";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtTeam31.AutoSize = true;
+            this.txtTeam31.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTeam31.ForeColor = System.Drawing.Color.White;
+            this.txtTeam31.Location = new System.Drawing.Point(20, 150);
+            this.txtTeam31.Name = "txtTeam31";
+            this.txtTeam31.Size = new System.Drawing.Size(96, 21);
+            this.txtTeam31.TabIndex = 8;
+            this.txtTeam31.Text = "Equipo #1";
+            this.txtTeam31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
+            // team32
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(6, 218);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(252, 135);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
+            this.team32.Location = new System.Drawing.Point(6, 218);
+            this.team32.Name = "team32";
+            this.team32.Size = new System.Drawing.Size(252, 135);
+            this.team32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.team32.TabIndex = 6;
+            this.team32.TabStop = false;
             // 
-            // pictureBox2
+            // team31
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(6, 10);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(252, 135);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.groupBox5.Controls.Add(this.BtnVS6);
-            this.groupBox5.Controls.Add(this.txtTeam24);
-            this.groupBox5.Controls.Add(this.txtTeam23);
-            this.groupBox5.Controls.Add(this.team24);
-            this.groupBox5.Controls.Add(this.team23);
-            this.groupBox5.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.groupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox5.Location = new System.Drawing.Point(9, 66);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(264, 536);
-            this.groupBox5.TabIndex = 11;
-            this.groupBox5.TabStop = false;
-            // 
-            // BtnVS6
-            // 
-            this.BtnVS6.FlatAppearance.BorderSize = 0;
-            this.BtnVS6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnVS6.Font = new System.Drawing.Font("MS UI Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnVS6.ForeColor = System.Drawing.Color.White;
-            this.BtnVS6.Location = new System.Drawing.Point(89, 257);
-            this.BtnVS6.Name = "BtnVS6";
-            this.BtnVS6.Size = new System.Drawing.Size(78, 39);
-            this.BtnVS6.TabIndex = 10;
-            this.BtnVS6.Text = "VS";
-            this.BtnVS6.UseVisualStyleBackColor = true;
-            this.BtnVS6.Click += new System.EventHandler(this.BtnVS6_Click);
-            // 
-            // txtTeam24
-            // 
-            this.txtTeam24.AutoSize = true;
-            this.txtTeam24.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTeam24.ForeColor = System.Drawing.Color.White;
-            this.txtTeam24.Location = new System.Drawing.Point(20, 496);
-            this.txtTeam24.Name = "txtTeam24";
-            this.txtTeam24.Size = new System.Drawing.Size(96, 21);
-            this.txtTeam24.TabIndex = 9;
-            this.txtTeam24.Text = "Equipo #1";
-            this.txtTeam24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // txtTeam23
-            // 
-            this.txtTeam23.AutoSize = true;
-            this.txtTeam23.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTeam23.ForeColor = System.Drawing.Color.White;
-            this.txtTeam23.Location = new System.Drawing.Point(6, 16);
-            this.txtTeam23.Name = "txtTeam23";
-            this.txtTeam23.Size = new System.Drawing.Size(96, 21);
-            this.txtTeam23.TabIndex = 8;
-            this.txtTeam23.Text = "Equipo #1";
-            this.txtTeam23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // team24
-            // 
-            this.team24.Location = new System.Drawing.Point(6, 348);
-            this.team24.Name = "team24";
-            this.team24.Size = new System.Drawing.Size(252, 135);
-            this.team24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.team24.TabIndex = 6;
-            this.team24.TabStop = false;
-            // 
-            // team23
-            // 
-            this.team23.Location = new System.Drawing.Point(6, 56);
-            this.team23.Name = "team23";
-            this.team23.Size = new System.Drawing.Size(252, 135);
-            this.team23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.team23.TabIndex = 2;
-            this.team23.TabStop = false;
+            this.team31.Location = new System.Drawing.Point(6, 10);
+            this.team31.Name = "team31";
+            this.team31.Size = new System.Drawing.Size(252, 135);
+            this.team31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.team31.TabIndex = 2;
+            this.team31.TabStop = false;
             // 
             // Form1
             // 
@@ -848,6 +853,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.team7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.team8)).EndInit();
             this.panel4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.team24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.team23)).EndInit();
             this.panel5.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
@@ -856,12 +865,8 @@
             this.panel6.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.team24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.team23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.team32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.team31)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -913,11 +918,11 @@
         private System.Windows.Forms.TextBox txtTeam3;
         private System.Windows.Forms.TextBox txtTeam8;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button BtnVS7;
+        private System.Windows.Forms.Label txtTeam32;
+        private System.Windows.Forms.Label txtTeam31;
+        private System.Windows.Forms.PictureBox team32;
+        private System.Windows.Forms.PictureBox team31;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button BtnVS6;
         private System.Windows.Forms.Label txtTeam24;

@@ -217,5 +217,40 @@ namespace Versus
                             txtTeam23.Text, txtTeam24.Text, 6);
             grupo1.Show();
         }
+
+        private void Team21_Click(object sender, EventArgs e)
+        {
+            team31.Load(team21.ImageLocation);
+            txtTeam31.Text = txtTeam21.Text;
+        }
+
+        private void Team22_Click(object sender, EventArgs e)
+        {
+            team31.Load(team22.ImageLocation);
+            txtTeam31.Text = txtTeam22.Text;
+
+        }
+
+        private void Team23_Click(object sender, EventArgs e)
+        {
+            team32.Load(team23.ImageLocation);
+            txtTeam32.Text = txtTeam23.Text;
+
+        }
+
+        private void Team24_Click(object sender, EventArgs e)
+        {
+            team32.Load(team24.ImageLocation);
+            txtTeam32.Text = txtTeam24.Text;
+
+        }
+
+        private void BtnVS7_Click(object sender, EventArgs e)
+        {
+            Prueba grupo1 = new Prueba(team31.ImageLocation, team32.ImageLocation,
+                txtTeam31.Text, txtTeam32.Text, 7);
+            grupo1.Show();
+
+        }
     }
 }
